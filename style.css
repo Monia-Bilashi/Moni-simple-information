@@ -1,0 +1,87 @@
+body {
+	background-color:teal;
+	font-family:cursive;
+}
+table, th, td {
+  border: 1px dashed black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+}
+.topnav {
+	background-color:none;
+	display:flex;
+}
+.topnav ul a {
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:15px;
+	font-weight:bolder;
+	color:black;
+	padding:2px;	
+}
+.topnav ul a:hover {
+	background:gray;
+}
+.move {
+	background-color:burlblue;
+	float:right;
+}
+header {
+	display:flex;
+	padding:3px;
+}
+.bilashi {
+	width:600px;
+	padding:2px;
+}
+.skill {
+	width:1000px;
+	padding:2px;
+}
+.activity {
+	display:flex;
+	padding:3px;
+}
+.activityl {
+	width:500px;
+	padding:2px;
+}
+.activityp {
+	width:800px;
+	padding:2px;
+}
+.activityp h2 ul li {
+	list-style:none;
+}
+.hobby {
+	display:flex;
+	padding:3px;
+}
+.int {
+	width:800px;
+	padding:2px;
+}
+.hobby {
+	width:800px;
+	padding:2px;
+}
+.footer {
+	background-color:gray;
+	height:50px;
+	width:auto;
+	text-align:right;
+}
+.footer h3 {
+	color:blue;
+	padding:6px 2px;
+	margin:4px 4px;
+	opacity:.7;
+}
+.mar {
+	color:white;
+	font-size:18px;
+	opacity:.7
+}
